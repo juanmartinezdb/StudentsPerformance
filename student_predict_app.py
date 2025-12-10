@@ -5,7 +5,7 @@ from student_predict_service import predict_single
 app = Flask('student-predict')
 
 
-with open('models/students-model.pck', 'rb') as f:
+with open('models/students-model-regresion.pck', 'rb') as f:
     dv, model = pickle.load(f)
 
 @app.route('/predict', methods=['POST'])
