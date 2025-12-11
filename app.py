@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Cargar el modelo y el DictVectorizer
-with open('models/students-model-regresion.pck', 'rb') as f:
+with open('models/students-model-svm.pck', 'rb') as f:
     dv, model = pickle.load(f)
 
 # Título de la aplicación
