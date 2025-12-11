@@ -6,7 +6,7 @@ with open('models/students-model-svm.pck', 'rb') as f:
     dv, model = pickle.load(f)
 
 # Título de la aplicación
-st.title("Predicción de Rendimiento Estudiantil")
+st.title("Predicción de Rendimiento Estudiantil (SVM)")
 
 # Formulario para introducir datos del alumno
 st.header("Introduce los datos del alumno:")
